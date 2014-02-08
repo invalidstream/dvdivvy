@@ -1,0 +1,10 @@
+Version 1.0 - Oct 5, 2013
+-------------------------
+First working version. Posted to blog as http://www.subfurther.com/blog/2013/10/05/dvdivvy/
+
+
+Known bugs to fix:
+* Deleting last segment raises exception
+* Table should clear when a different movie is opened
+* Destination button's NSSavePanel sheet's directory dialog button shouldn't say "Export" (suggests that export will begin immediately)
+* On window resize, would be more useful for preview to stretch horizontally than table

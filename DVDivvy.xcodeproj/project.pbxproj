@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		014B0B0817ED055B0001ADEC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014B0B0717ED055B0001ADEC /* Cocoa.framework */; };
+		014B0B1217ED055B0001ADEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 014B0B1017ED055B0001ADEC /* InfoPlist.strings */; };
+		014B0B1417ED055B0001ADEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 014B0B1317ED055B0001ADEC /* main.m */; };
+		014B0B1817ED055B0001ADEC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 014B0B1617ED055B0001ADEC /* Credits.rtf */; };
+		014B0B1B17ED055B0001ADEC /* SNFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 014B0B1A17ED055B0001ADEC /* SNFAppDelegate.m */; };
+		014B0B1E17ED055C0001ADEC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014B0B1C17ED055C0001ADEC /* MainMenu.xib */; };
+		014B0B2017ED055C0001ADEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014B0B1F17ED055C0001ADEC /* Images.xcassets */; };
+		014B0B2717ED055C0001ADEC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014B0B2617ED055C0001ADEC /* XCTest.framework */; };
+		014B0B2817ED055C0001ADEC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014B0B0717ED055B0001ADEC /* Cocoa.framework */; };
+		014B0B3017ED055C0001ADEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 014B0B2E17ED055C0001ADEC /* InfoPlist.strings */; };
+		014B0B3217ED055C0001ADEC /* DVDivvyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 014B0B3117ED055C0001ADEC /* DVDivvyTests.m */; };
+		014B0B8017ED0FC60001ADEC /* SNFMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014B0B7F17ED0FC60001ADEC /* SNFMainWindowController.m */; };
+		014B0B8317ED10040001ADEC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014B0B8117ED10040001ADEC /* AVFoundation.framework */; };
+		014B0B8417ED10040001ADEC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014B0B8217ED10040001ADEC /* CoreMedia.framework */; };
+		01DBFD4518008DDA004411D3 /* SNFExportDivvy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DBFD4418008DDA004411D3 /* SNFExportDivvy.m */; };
+		01DBFD481800D90F004411D3 /* CC0-license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 01DBFD471800D90F004411D3 /* CC0-license.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		014B0B2917ED055C0001ADEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 014B0AFC17ED055B0001ADEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 014B0B0317ED055B0001ADEC;
+			remoteInfo = DVDivvy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014B0B0417ED055B0001ADEC /* DVDivvy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVDivvy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		014B0B0717ED055B0001ADEC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		014B0B0A17ED055B0001ADEC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		014B0B0B17ED055B0001ADEC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		014B0B0C17ED055B0001ADEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		014B0B0F17ED055B0001ADEC /* DVDivvy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DVDivvy-Info.plist"; sourceTree = "<group>"; };
+		014B0B1117ED055B0001ADEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		014B0B1317ED055B0001ADEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		014B0B1517ED055B0001ADEC /* DVDivvy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DVDivvy-Prefix.pch"; sourceTree = "<group>"; };
+		014B0B1717ED055B0001ADEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		014B0B1917ED055B0001ADEC /* SNFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNFAppDelegate.h; sourceTree = "<group>"; };
+		014B0B1A17ED055B0001ADEC /* SNFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNFAppDelegate.m; sourceTree = "<group>"; };
+		014B0B1D17ED055C0001ADEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		014B0B1F17ED055C0001ADEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		014B0B2517ED055C0001ADEC /* DVDivvyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVDivvyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		014B0B2617ED055C0001ADEC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		014B0B2D17ED055C0001ADEC /* DVDivvyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DVDivvyTests-Info.plist"; sourceTree = "<group>"; };
+		014B0B2F17ED055C0001ADEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		014B0B3117ED055C0001ADEC /* DVDivvyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVDivvyTests.m; sourceTree = "<group>"; };
+		014B0B7E17ED0FC60001ADEC /* SNFMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNFMainWindowController.h; sourceTree = "<group>"; };
+		014B0B7F17ED0FC60001ADEC /* SNFMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNFMainWindowController.m; sourceTree = "<group>"; };
+		014B0B8117ED10040001ADEC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		014B0B8217ED10040001ADEC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		01BD3C3F1801D72B0074EA4F /* RELEASES.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RELEASES.txt; sourceTree = "<group>"; };
+		01DBFD4318008DDA004411D3 /* SNFExportDivvy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNFExportDivvy.h; sourceTree = "<group>"; };
+		01DBFD4418008DDA004411D3 /* SNFExportDivvy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNFExportDivvy.m; sourceTree = "<group>"; };
+		01DBFD4618009847004411D3 /* SNFExportDivvyDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNFExportDivvyDelegate.h; sourceTree = "<group>"; };
+		01DBFD471800D90F004411D3 /* CC0-license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CC0-license.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		014B0B0117ED055B0001ADEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014B0B8317ED10040001ADEC /* AVFoundation.framework in Frameworks */,
+				014B0B8417ED10040001ADEC /* CoreMedia.framework in Frameworks */,
+				014B0B0817ED055B0001ADEC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		014B0B2217ED055C0001ADEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014B0B2817ED055C0001ADEC /* Cocoa.framework in Frameworks */,
+				014B0B2717ED055C0001ADEC /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		014B0AFB17ED055B0001ADEC = {
+			isa = PBXGroup;
+			children = (
+				01BD3C3F1801D72B0074EA4F /* RELEASES.txt */,
+				01DBFD471800D90F004411D3 /* CC0-license.txt */,
+				014B0B0D17ED055B0001ADEC /* DVDivvy */,
+				014B0B2B17ED055C0001ADEC /* DVDivvyTests */,
+				014B0B0617ED055B0001ADEC /* Frameworks */,
+				014B0B0517ED055B0001ADEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		014B0B0517ED055B0001ADEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				014B0B0417ED055B0001ADEC /* DVDivvy.app */,
+				014B0B2517ED055C0001ADEC /* DVDivvyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		014B0B0617ED055B0001ADEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				014B0B8117ED10040001ADEC /* AVFoundation.framework */,
+				014B0B8217ED10040001ADEC /* CoreMedia.framework */,
+				014B0B0717ED055B0001ADEC /* Cocoa.framework */,
+				014B0B2617ED055C0001ADEC /* XCTest.framework */,
+				014B0B0917ED055B0001ADEC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		014B0B0917ED055B0001ADEC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				014B0B0A17ED055B0001ADEC /* AppKit.framework */,
+				014B0B0B17ED055B0001ADEC /* CoreData.framework */,
+				014B0B0C17ED055B0001ADEC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		014B0B0D17ED055B0001ADEC /* DVDivvy */ = {
+			isa = PBXGroup;
+			children = (
+				014B0B1917ED055B0001ADEC /* SNFAppDelegate.h */,
+				014B0B1A17ED055B0001ADEC /* SNFAppDelegate.m */,
+				014B0B1C17ED055C0001ADEC /* MainMenu.xib */,
+				014B0B7E17ED0FC60001ADEC /* SNFMainWindowController.h */,
+				014B0B7F17ED0FC60001ADEC /* SNFMainWindowController.m */,
+				01DBFD4318008DDA004411D3 /* SNFExportDivvy.h */,
+				01DBFD4418008DDA004411D3 /* SNFExportDivvy.m */,
+				01DBFD4618009847004411D3 /* SNFExportDivvyDelegate.h */,
+				014B0B1F17ED055C0001ADEC /* Images.xcassets */,
+				014B0B0E17ED055B0001ADEC /* Supporting Files */,
+			);
+			path = DVDivvy;
+			sourceTree = "<group>";
+		};
+		014B0B0E17ED055B0001ADEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				014B0B0F17ED055B0001ADEC /* DVDivvy-Info.plist */,
+				014B0B1017ED055B0001ADEC /* InfoPlist.strings */,
+				014B0B1317ED055B0001ADEC /* main.m */,
+				014B0B1517ED055B0001ADEC /* DVDivvy-Prefix.pch */,
+				014B0B1617ED055B0001ADEC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		014B0B2B17ED055C0001ADEC /* DVDivvyTests */ = {
+			isa = PBXGroup;
+			children = (
+				014B0B3117ED055C0001ADEC /* DVDivvyTests.m */,
+				014B0B2C17ED055C0001ADEC /* Supporting Files */,
+			);
+			path = DVDivvyTests;
+			sourceTree = "<group>";
+		};
+		014B0B2C17ED055C0001ADEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				014B0B2D17ED055C0001ADEC /* DVDivvyTests-Info.plist */,
+				014B0B2E17ED055C0001ADEC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		014B0B0317ED055B0001ADEC /* DVDivvy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 014B0B3517ED055C0001ADEC /* Build configuration list for PBXNativeTarget "DVDivvy" */;
+			buildPhases = (
+				014B0B0017ED055B0001ADEC /* Sources */,
+				014B0B0117ED055B0001ADEC /* Frameworks */,
+				014B0B0217ED055B0001ADEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVDivvy;
+			productName = DVDivvy;
+			productReference = 014B0B0417ED055B0001ADEC /* DVDivvy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		014B0B2417ED055C0001ADEC /* DVDivvyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 014B0B3817ED055C0001ADEC /* Build configuration list for PBXNativeTarget "DVDivvyTests" */;
+			buildPhases = (
+				014B0B2117ED055C0001ADEC /* Sources */,
+				014B0B2217ED055C0001ADEC /* Frameworks */,
+				014B0B2317ED055C0001ADEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				014B0B2A17ED055C0001ADEC /* PBXTargetDependency */,
+			);
+			name = DVDivvyTests;
+			productName = DVDivvyTests;
+			productReference = 014B0B2517ED055C0001ADEC /* DVDivvyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		014B0AFC17ED055B0001ADEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SNF;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Subsequently & Furthermore, Inc.";
+				TargetAttributes = {
+					014B0B2417ED055C0001ADEC = {
+						TestTargetID = 014B0B0317ED055B0001ADEC;
+					};
+				};
+			};
+			buildConfigurationList = 014B0AFF17ED055B0001ADEC /* Build configuration list for PBXProject "DVDivvy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 014B0AFB17ED055B0001ADEC;
+			productRefGroup = 014B0B0517ED055B0001ADEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				014B0B0317ED055B0001ADEC /* DVDivvy */,
+				014B0B2417ED055C0001ADEC /* DVDivvyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		014B0B0217ED055B0001ADEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014B0B1217ED055B0001ADEC /* InfoPlist.strings in Resources */,
+				014B0B2017ED055C0001ADEC /* Images.xcassets in Resources */,
+				014B0B1817ED055B0001ADEC /* Credits.rtf in Resources */,
+				01DBFD481800D90F004411D3 /* CC0-license.txt in Resources */,
+				014B0B1E17ED055C0001ADEC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		014B0B2317ED055C0001ADEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014B0B3017ED055C0001ADEC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		014B0B0017ED055B0001ADEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014B0B1B17ED055B0001ADEC /* SNFAppDelegate.m in Sources */,
+				014B0B1417ED055B0001ADEC /* main.m in Sources */,
+				01DBFD4518008DDA004411D3 /* SNFExportDivvy.m in Sources */,
+				014B0B8017ED0FC60001ADEC /* SNFMainWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		014B0B2117ED055C0001ADEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014B0B3217ED055C0001ADEC /* DVDivvyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		014B0B2A17ED055C0001ADEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 014B0B0317ED055B0001ADEC /* DVDivvy */;
+			targetProxy = 014B0B2917ED055C0001ADEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		014B0B1017ED055B0001ADEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				014B0B1117ED055B0001ADEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		014B0B1617ED055B0001ADEC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				014B0B1717ED055B0001ADEC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		014B0B1C17ED055C0001ADEC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				014B0B1D17ED055C0001ADEC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		014B0B2E17ED055C0001ADEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				014B0B2F17ED055C0001ADEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		014B0B3317ED055C0001ADEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		014B0B3417ED055C0001ADEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		014B0B3617ED055C0001ADEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DVDivvy/DVDivvy-Prefix.pch";
+				INFOPLIST_FILE = "DVDivvy/DVDivvy-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		014B0B3717ED055C0001ADEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DVDivvy/DVDivvy-Prefix.pch";
+				INFOPLIST_FILE = "DVDivvy/DVDivvy-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		014B0B3917ED055C0001ADEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DVDivvy.app/Contents/MacOS/DVDivvy";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DVDivvy/DVDivvy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DVDivvyTests/DVDivvyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		014B0B3A17ED055C0001ADEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DVDivvy.app/Contents/MacOS/DVDivvy";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DVDivvy/DVDivvy-Prefix.pch";
+				INFOPLIST_FILE = "DVDivvyTests/DVDivvyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		014B0AFF17ED055B0001ADEC /* Build configuration list for PBXProject "DVDivvy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014B0B3317ED055C0001ADEC /* Debug */,
+				014B0B3417ED055C0001ADEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		014B0B3517ED055C0001ADEC /* Build configuration list for PBXNativeTarget "DVDivvy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014B0B3617ED055C0001ADEC /* Debug */,
+				014B0B3717ED055C0001ADEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		014B0B3817ED055C0001ADEC /* Build configuration list for PBXNativeTarget "DVDivvyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014B0B3917ED055C0001ADEC /* Debug */,
+				014B0B3A17ED055C0001ADEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 014B0AFC17ED055B0001ADEC /* Project object */;
+}
