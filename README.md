@@ -5,6 +5,7 @@ OS X Cocoa app to split up long video files into individual episodes
 
 More info in my blog at http://www.subfurther.com/blog/2013/10/05/dvdivvy/
 
+![dvdivvy-screenshot-true-tears](https://cloud.githubusercontent.com/assets/305140/5320984/2cbc3c3e-7c85-11e4-818d-3a3ed67f19d6.png)
 
 Known bugs / TODOs:
 * Deleting last segment raises exception
